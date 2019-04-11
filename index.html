@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+  <title>Exercice5JavaScript2</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="d-md-flex">
+      <div class="p-2 mx-2 mt-3 p-3 text-left">
+        <div class="row no-gutters">
+          <div class="p-4 col-12 col-sm-12 col-md-12 bg-success border shadow">
+            <h1>Exercice 5 Javascript 2</h1>
+          </div>
+          <div class="p-4 col-12 col-md-12 bg-secondary  border">
+            <p>Dans le fichier HTML fourni, faire comme dans l'exercice 1 mais avec 5 images.
+              **Bonus** Ne faire qu'une seule fonction JavaScript pour cet exercice.</p>
+          </div>
+        </div>
+      </div>
+      <div class="p-2 mx-2 mt-3 p-3 bg-danger text-left">
+        <!-- changer l'image au survol par la deuxième image avec onmouseover-->
+        <img alt="" src="images/image1.jpg" id="image1" onmouseover="changeImage(this)" />
+        <img alt="" src="images/image2.jpg" id="image2" onmouseover="changeImage(this)" />
+        <img alt="" src="images/image3.jpg" id="image3" onmouseover="changeImage(this)" />
+        <img alt="" src="images/image4.jpg" id="image4" onmouseover="changeImage(this)" />
+        <img alt="" src="images/image5.jpg" id="image5" onmouseover="changeImage(this)" />
+      </div>
+    </div> <!-- fin de div pour le group de deux div -->
+  </div>
+  <!--fin de div class container -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
